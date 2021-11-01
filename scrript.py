@@ -9,8 +9,10 @@ start = str(start)
 end   = str(end)
 
 url = "https://api.appc.cisco.com/v1/token"
+client_id = "3f998ccf0c34be2bb9ec0649dda5c8eeec7ba977e5dc2affe3e86d52a1f290c62"
+client_secret = "b2951daaf2cc444497d686b33b726b8ad1b904034dbbb6c04e54f19e31a96f81f"
 
-payload = "client_id=3f998ccf0c34be2b9ec0649dda5c8eeec7ba977efwefwefew5dc2affe3e86d52a1f290c62&client_secret=b2951daaf2cc44497d686b33b726b8fwwfwfad1b904034dbbb6c04e54f19e31a96f81f"
+payload = "client_id=" + str(client_id) +"&""client_secret=" +str(client_secret)
 headers = {
     "Accept": "application/json",
     "Content-Type": "application/x-www-form-urlencoded"
