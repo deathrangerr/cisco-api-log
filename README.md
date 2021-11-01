@@ -1,4 +1,4 @@
 
-python3.9
-pip
-pip install requests
+`> python3.9
+`> pip
+`> pip install requests
