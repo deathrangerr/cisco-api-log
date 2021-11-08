@@ -157,7 +157,9 @@ HOST = "192.168.181.247"
 USERNAME = "root"
 PASSWORD = "root123"
 source_path = '/home/deathranger/Documents/beginner/dmp/'
-target_path = '/opt/sftp/logs/dmp/'
+path = '/opt/sftp/logs/dmp/'
+target = str(path) + ' ' + str(today)
+target_path = target
 
 class MySFTPClient(paramiko.SFTPClient):
     def put_dir(self, source, target):
@@ -190,7 +192,10 @@ sftp.put_dir(source_path, target_path)
 sftp.close()
 
 source_path = '/home/deathranger/Documents/beginner/appc/'
-target_path = '/opt/sftp/logs/appc/'
+#target_path = '/opt/sftp/logs/appc/'
+path = '/opt/sftp/logs/appc/'
+target = str(path) + ' ' + str(today)
+target_path = target
 
 class MySFTPClient(paramiko.SFTPClient):
     def put_dir(self, source, target):
