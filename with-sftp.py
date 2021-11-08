@@ -158,7 +158,7 @@ USERNAME = "root"
 PASSWORD = "root123"
 source_path = '/home/deathranger/Documents/beginner/dmp/'
 path = '/opt/sftp/logs/dmp/'
-target = str(path) + ' ' + str(today)
+target = str(path) + '' + str(today)
 target_path = target
 
 class MySFTPClient(paramiko.SFTPClient):
@@ -194,7 +194,7 @@ sftp.close()
 source_path = '/home/deathranger/Documents/beginner/appc/'
 #target_path = '/opt/sftp/logs/appc/'
 path = '/opt/sftp/logs/appc/'
-target = str(path) + ' ' + str(today)
+target = str(path) + '' + str(today)
 target_path = target
 
 class MySFTPClient(paramiko.SFTPClient):
