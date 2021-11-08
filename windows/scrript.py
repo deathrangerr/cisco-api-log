@@ -156,8 +156,10 @@ f12.close()
 HOST = "192.168.181.247"
 USERNAME = "root"
 PASSWORD = "root123"
+path = '/opt/sftp/logs/dmp/'
+target = str(path) + ' ' + str(today)
 source_path = 'C:\\Users\\geethika.d\\Desktop\\logs\\dmp'
-target_path = '/opt/sftp/logs/dmp/'
+target_path = target
 
 class MySFTPClient(paramiko.SFTPClient):
     def put_dir(self, source, target):
@@ -189,8 +191,10 @@ sftp.mkdir(target_path, ignore_existing=True)
 sftp.put_dir(source_path, target_path)
 sftp.close()
 
+path = '/opt/sftp/logs/appc/'
+target = str(path) + '' + str(today)
 source_path = 'C:\\Users\\geethika.d\\Desktop\\logs\\appc'
-target_path = '/opt/sftp/logs/appc/'
+target_path = target
 
 class MySFTPClient(paramiko.SFTPClient):
     def put_dir(self, source, target):
