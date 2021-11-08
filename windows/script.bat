@@ -1,0 +1,1 @@
+start "" "python" "C:\Users\geethika.d\Desktop\logs\scrript.py"
