@@ -12,6 +12,7 @@
 #### - In windows/scrript.py file at line number 152 change the location to save appc logs
 
 ## Windows
+#### - In .bat file change the script's location
 #### - Create scheduler and provide the windows/bat file to execute
 #### - Follow the link to create a scheduler : https://www.ibm.com/docs/en/datacap/9.1.6?topic=application-configuring-windows-task-scheduler-automatically-run-ruleset
 
