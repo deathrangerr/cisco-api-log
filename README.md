@@ -15,6 +15,6 @@
 #### - Create scheduler and provide the windows/bat file to execute
 #### - Follow the link to create a scheduler : https://www.ibm.com/docs/en/datacap/9.1.6?topic=application-configuring-windows-task-scheduler-automatically-run-ruleset
 
-## Linux Linux
+## Linux 
 #### - Create a cron entry and add windows/scrript.py
 #### - Cron entry follow this link : https://www.geeksforgeeks.org/crontab-in-linux-with-examples/
