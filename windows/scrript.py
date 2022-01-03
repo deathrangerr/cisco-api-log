@@ -12,8 +12,8 @@ start = str(start)
 end   = str(end)
 
 url = "https://api.appc.cisco.com/v1/token"
-client_id = "3f998ccf0c34be2b9ec0649dda5c8eeec7ba977e5dc2affe3e86d52a1f290c62"
-client_secret = "b2951daaf2cc44497d686b33b726b8ad1b904034dbbb6c04e54f19e31a96f81f"
+client_id = "</Token>"
+client_secret = "</Token>"
 
 payload = "client_id=" + str(client_id) +"&""client_secret=" +str(client_secret)
 headers = {
